@@ -27,4 +27,10 @@ let width =prompt("Enter the width in inches...")
 let height =prompt("Enter the height in inches...")
 let area = width * height
 alert(`The area of a rectangle with the width of ${width} and height of ${height} inches is ${area} square inches`)
-
+let randm = Math.round(10 * Math.random())
+let guess = prompt("Can you guess the random number?  Enter your best guess 0 and 10...")
+let reveal = "incorrectly"
+if (randm == guess)   
+{   reveal = "correctly"
+}   
+alert(`You guessed ${reveal}, the random number was ${randm}`)
