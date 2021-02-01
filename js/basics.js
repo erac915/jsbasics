@@ -17,4 +17,8 @@ console.log(secPerWeek);
 const secsPerYear = (secsPerMin * minutesPerDay * daysPerYear);
 console.log(secsPerYear);
 
-
+const radius = prompt ("Please enter the radius...")
+let radiussq = radius**2
+alert(`The square of radius ${radius} is ${radiussq}`)
+let circleArea = Math.PI * radiussq
+alert(`The area of a circle with the radius of ${radius} is ${circleArea}`)
