@@ -17,8 +17,14 @@ console.log(secPerWeek);
 const secsPerYear = (secsPerMin * minutesPerDay * daysPerYear);
 console.log(secsPerYear);
 
-const radius = prompt ("Please enter the radius...")
+const radius = prompt ("Please enter the radius in inches...")
 let radiussq = radius**2
 alert(`The square of radius ${radius} is ${radiussq}`)
 let circleArea = Math.PI * radiussq
-alert(`The area of a circle with the radius of ${radius} is ${circleArea}`)
+alert(`The area of a circle a the radius of ${radius} inches is ${circleArea} square inches`)
+
+let width =prompt("Enter the width in inches...")
+let height =prompt("Enter the height in inches...")
+let area = width * height
+alert(`The area of a rectangle with the width of ${width} and height of ${height} inches is ${area} square inches`)
+
